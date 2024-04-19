@@ -1,0 +1,2 @@
+# Governor Sindh IT Initiative: 100 Days of Coding Challenge
+ Welcome to the Governor Sindh IT Initiative's 100 Days of Coding Challenge! This repository is dedicated to empowering individuals passionate about coding and technology through a structured 100-day journey. Led by Sir Ashraib Ali and supported by the visionary Governor Sindh, this initiative aims to foster a culture of continuous learning and skill development in the field of IT.
