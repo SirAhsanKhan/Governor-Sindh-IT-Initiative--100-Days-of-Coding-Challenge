@@ -1,8 +1,4 @@
-function operator(value1, value2) {
-    return value1 && value2;
+function remainder(num1, num2) {
+    return num1 % num2;
 }
-console.log(operator(true, true));
-function operators(value1, value2) {
-    return value1 || value2;
-}
-console.log(operators(true, false));
+console.log(remainder(15, 4));

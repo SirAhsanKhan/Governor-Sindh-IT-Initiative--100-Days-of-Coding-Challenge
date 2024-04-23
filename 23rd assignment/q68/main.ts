@@ -1,18 +1,5 @@
-function divideAndReminder(numerator: number, denominator: number): { quotient: number; remainder: number }
- {
-    let quotient = Math.floor(numerator / denominator);
+function multiplyDecimals(num1 :number, num2:number):number{
 
-    let remainder = numerator % denominator;
-
-    return { quotient, remainder };
+    return Math.round(num1 * num2)
 }
-
-console.log(divideAndReminder(10, 2));
-//a bit hard still manage to do
-
-//This function takes two numbers and gives you the answer when you divide the first number by the second one. For example, when you divide 10 by 3 it tells you that the answer is 5 with a remainder of 0.
-
-
-
-
-
+console.log(multiplyDecimals(0.05,0.06));//output was 0.003 but math.round roundoff the answer resulting 0

@@ -1,11 +1,5 @@
-function operator(value1 :boolean , value2:boolean):boolean {
+function remainder(num1:number,num2:number):number {
 
-    return value1 && value2
-    
+    return num1 % num2
 }
-console.log(operator(true,true));
-
-function operators(value1 :boolean , value2:boolean):boolean {
-     return value1 || value2
-}
-console.log(operators(true,false));
+console.log(remainder(15,4));

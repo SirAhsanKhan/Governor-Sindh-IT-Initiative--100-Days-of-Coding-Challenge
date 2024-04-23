@@ -1,4 +1,4 @@
-function remainder(num1, num2) {
-    return num1 % num2;
+function combinationOfStringAndNumber(text, number) {
+    return text + number;
 }
-console.log(remainder(15, 4));
+console.log(combinationOfStringAndNumber("class:", 10));

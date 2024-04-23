@@ -1,5 +1,5 @@
-function remainder(num1:number,num2:number):number {
+function combinationOfStringAndNumber(text: string,number: number) : string {
+    return text + number
 
-    return num1 % num2
 }
-console.log(remainder(15,4));
+console.log(combinationOfStringAndNumber("class:",10));
